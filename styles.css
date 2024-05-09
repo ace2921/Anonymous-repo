@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.banner{
+    /* border: 2px solid red; */
+    height: 80vh;
+    background-image: url(/photographer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative; 
+}
+.bannertext{
+    border: 2px solid white;
+    font-family: 'Segoe UI', arial, sans-serif;
+    height: 150px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    margin: 180px 200px 200px 510px;
+    color: #fff;
+    font-size: large;
+    /* position: relative; */
+    /* font-weight: lighter; */
+    padding: 0px 0px 0px 20px;
+ 
+} 
+ 
+
+
+.nav{
+    /* border: 1px solid green; */
+    height: 40px;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 150px; */
+    position: absolute;
+    z-index: 10000000000;
+    bottom: -15px;
+    left: 40%;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+.nav a:hover{
+    background-color: #cfcdcd;
+    
+} 
+.portfolio{
+    /* border: 2px solid darkgreen; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ img{
+    filter: blur(5px);
+    /* transition: 2s;  */
+
+}
+ img:hover{
+    filter: blur(0px);
+    transition: 2s;
+    
+} 
+.contactinfo{
+    /* border: 2px solid purple; */
+    height: 110vh;
+    width: 78%;
+    margin-right: 150px;
+    margin-left: 150px; 
+    background-color: rgba(247, 246, 246, 0.925);
+    padding: 20px;
+}
+.text{
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, arial, sans-serif;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+form input{
+    width: 100%;
+    height: 50px;
+}
+.Submit{
+    border: none;
+    /* border: 2px solid black; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.Submit:hover{
+    background-color: #cfcdcd;
+    color: #000;
+}
+
+/* footer{
+    border: 2px solid;
+    border-color: crimson
+} */
+footer a{
+    text-decoration: underline;
+    color: black;
+}
+footer a:hover{
+    color: green;
+}
